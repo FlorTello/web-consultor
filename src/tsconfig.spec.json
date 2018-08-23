@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "../out-tsc/spec",
     "module": "commonjs", //add
-    "target": "es6", //add
+    "target": "es5", //add
     "baseUrl": "./", //add
     "types": [
       "jest",

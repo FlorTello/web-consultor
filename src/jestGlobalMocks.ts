@@ -1,3 +1,4 @@
+
 const mock = () => {
   let storage = {};
   return {
