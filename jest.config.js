@@ -1,7 +1,7 @@
 module.exports = {
   globals: {
     '__TS_CONFIG__': {
-      'target': 'es6',
+      'target': 'es5',
       'module': 'commonjs',
       'moduleResolution': 'node'
     },
