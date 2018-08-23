@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VerticalMenuComponent implements OnInit {
 
+  expandHeight = '42px';
+  collapseHeight = '42px';
+
   constructor() { }
 
   ngOnInit() {
