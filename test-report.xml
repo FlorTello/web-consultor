@@ -1,8 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
   <file path="C:\MEDINA\web-consultor\src\app\app.component.spec.ts">
-    <testCase name="AppComponent should create the app" duration="91"/>
-    <testCase name="AppComponent should have as title &apos;web-jest&apos;" duration="26"/>
-    <testCase name="AppComponent should render title in a h1 tag" duration="30"/>
+    <testCase name="AppComponent should create the app" duration="456">
+      <failure message="Error: Template parse errors:"><![CDATA[Error: Template parse errors:
+'mat-toolbar' is not a known element:
+1. If 'mat-toolbar' is an Angular component, then verify that it is part of this module.
+2. If 'mat-toolbar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>Angular 6</div>
+[ERROR ->]<mat-toolbar>My App</mat-toolbar>"): ng:///DynamicTestModule/AppComponent.html@1:0
+    at syntaxError (C:\MEDINA\packages\compiler\src\util.ts:100:17)
+    at TemplateParser.Object.<anonymous>.TemplateParser.parse (C:\MEDINA\packages\compiler\src\template_parser\template_parser.ts:100:13)
+    at JitCompiler.Object.<anonymous>.JitCompiler._parseTemplate (C:\MEDINA\packages\compiler\src\jit\compiler.ts:297:33)
+    at JitCompiler.Object.<anonymous>.JitCompiler._compileTemplate (C:\MEDINA\packages\compiler\src\jit\compiler.ts:275:11)
+    at C:\MEDINA\packages\compiler\src\jit\compiler.ts:206:42
+    at Set.forEach (<anonymous>)
+    at JitCompiler.Object.<anonymous>.JitCompiler._compileComponents (C:\MEDINA\packages\compiler\src\jit\compiler.ts:206:15)
+    at C:\MEDINA\packages\compiler\src\jit\compiler.ts:117:12
+    at Object.then (C:\MEDINA\packages\compiler\src\util.ts:89:74)
+    at JitCompiler.Object.<anonymous>.JitCompiler._compileModuleAndAllComponents (C:\MEDINA\packages\compiler\src\jit\compiler.ts:115:22)
+    at JitCompiler.Object.<anonymous>.JitCompiler.compileModuleAndAllComponentsAsync (C:\MEDINA\packages\compiler\src\jit\compiler.ts:69:33)
+    at CompilerImpl.Object.<anonymous>.CompilerImpl.compileModuleAndAllComponentsAsync (C:\MEDINA\packages\platform-browser-dynamic\src\compiler_factory.ts:68:27)
+    at TestingCompilerImpl.Object.<anonymous>.TestingCompilerImpl.compileModuleAndAllComponentsAsync (C:\packages\platform-browser-dynamic\testing\src\compiler_factory.ts:57:27)
+    at TestBed.Object.<anonymous>.TestBed.compileComponents (C:\packages\core\testing\src\test_bed.ts:335:27)
+    at Function.Object.<anonymous>.TestBed.compileComponents (C:\packages\core\testing\src\test_bed.ts:116:66)
+    at C:\MEDINA\web-consultor\src\app\app.component.spec.ts:9:8
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (C:\MEDINA\web-consultor\node_modules\zone.js\dist\zone.js:388:26)
+    at AsyncTestZoneSpec.Object.<anonymous>.AsyncTestZoneSpec.onInvoke (C:\MEDINA\web-consultor\node_modules\zone.js\dist\async-test.js:106:39)
+    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (C:\MEDINA\web-consultor\node_modules\zone.js\dist\proxy.js:125:39)
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (C:\MEDINA\web-consultor\node_modules\zone.js\dist\zone.js:387:32)
+    at Zone.Object.<anonymous>.Zone.runGuarded (C:\MEDINA\web-consultor\node_modules\zone.js\dist\zone.js:151:47)
+    at runInTestZone (C:\MEDINA\web-consultor\node_modules\zone.js\dist\async-test.js:234:29)
+    at C:\MEDINA\web-consultor\node_modules\zone.js\dist\async-test.js:168:17
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (C:\MEDINA\web-consultor\node_modules\zone.js\dist\zone.js:388:26)
+    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (C:\MEDINA\web-consultor\node_modules\zone.js\dist\proxy.js:128:39)
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (C:\MEDINA\web-consultor\node_modules\zone.js\dist\zone.js:387:32)
+    at Zone.Object.<anonymous>.Zone.run (C:\MEDINA\web-consultor\node_modules\zone.js\dist\zone.js:138:43)
+    at Object.testBody.length.done (C:\MEDINA\web-consultor\node_modules\jest-zone-patch\index.js:51:29)
+    at resolve (c:\MEDINA\web-consultor\node_modules\jest-jasmine2\build\queue_runner.js:56:12)
+    at new Promise (<anonymous>)
+    at mapper (c:\MEDINA\web-consultor\node_modules\jest-jasmine2\build\queue_runner.js:43:19)
+    at promise.then (c:\MEDINA\web-consultor\node_modules\jest-jasmine2\build\queue_runner.js:87:41)]]></failure>
+      <failure message="Error: Template parse errors:"><![CDATA[Error: Template parse errors:
+'mat-toolbar' is not a known element:
+1. If 'mat-toolbar' is an Angular component, then verify that it is part of this module.
+2. If 'mat-toolbar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>Angular 6</div>
+[ERROR ->]<mat-toolbar>My App</mat-toolbar>"): ng:///DynamicTestModule/AppComponent.html@1:0
+    at syntaxError (C:\MEDINA\packages\compiler\src\util.ts:100:17)
+    at TemplateParser.Object.<anonymous>.TemplateParser.parse (C:\MEDINA\packages\compiler\src\template_parser\template_parser.ts:100:13)
+    at JitCompiler.Object.<anonymous>.JitCompiler._parseTemplate (C:\MEDINA\packages\compiler\src\jit\compiler.ts:297:33)
+    at JitCompiler.Object.<anonymous>.JitCompiler._compileTemplate (C:\MEDINA\packages\compiler\src\jit\compiler.ts:275:11)
+    at C:\MEDINA\packages\compiler\src\jit\compiler.ts:206:42
+    at Set.forEach (<anonymous>)
+    at JitCompiler.Object.<anonymous>.JitCompiler._compileComponents (C:\MEDINA\packages\compiler\src\jit\compiler.ts:206:15)
+    at C:\MEDINA\packages\compiler\src\jit\compiler.ts:117:12
+    at Object.then (C:\MEDINA\packages\compiler\src\util.ts:89:74)
+    at JitCompiler.Object.<anonymous>.JitCompiler._compileModuleAndAllComponents (C:\MEDINA\packages\compiler\src\jit\compiler.ts:115:22)
+    at JitCompiler.Object.<anonymous>.JitCompiler.compileModuleAndAllComponentsSync (C:\MEDINA\packages\compiler\src\jit\compiler.ts:65:38)
+    at CompilerImpl.Object.<anonymous>.CompilerImpl.compileModuleAndAllComponentsSync (C:\MEDINA\packages\platform-browser-dynamic\src\compiler_factory.ts:60:35)
+    at TestingCompilerImpl.Object.<anonymous>.TestingCompilerImpl.compileModuleAndAllComponentsSync (C:\packages\platform-browser-dynamic\testing\src\compiler_factory.ts:52:27)
+    at TestBed.Object.<anonymous>.TestBed._initIfNeeded (C:\packages\core\testing\src\test_bed.ts:349:28)
+    at TestBed.Object.<anonymous>.TestBed.createComponent (C:\packages\core\testing\src\test_bed.ts:552:10)
+    at Function.Object.<anonymous>.TestBed.createComponent (C:\packages\core\testing\src\test_bed.ts:201:25)
+    at C:\MEDINA\web-consultor\src\app\app.component.spec.ts:12:29
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (C:\MEDINA\web-consultor\node_modules\zone.js\dist\zone.js:388:26)
+    at AsyncTestZoneSpec.Object.<anonymous>.AsyncTestZoneSpec.onInvoke (C:\MEDINA\web-consultor\node_modules\zone.js\dist\async-test.js:106:39)
+    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (C:\MEDINA\web-consultor\node_modules\zone.js\dist\proxy.js:125:39)
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (C:\MEDINA\web-consultor\node_modules\zone.js\dist\zone.js:387:32)
+    at Zone.Object.<anonymous>.Zone.runGuarded (C:\MEDINA\web-consultor\node_modules\zone.js\dist\zone.js:151:47)
+    at runInTestZone (C:\MEDINA\web-consultor\node_modules\zone.js\dist\async-test.js:234:29)
+    at C:\MEDINA\web-consultor\node_modules\zone.js\dist\async-test.js:168:17
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (C:\MEDINA\web-consultor\node_modules\zone.js\dist\zone.js:388:26)
+    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (C:\MEDINA\web-consultor\node_modules\zone.js\dist\proxy.js:128:39)
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (C:\MEDINA\web-consultor\node_modules\zone.js\dist\zone.js:387:32)
+    at Zone.Object.<anonymous>.Zone.run (C:\MEDINA\web-consultor\node_modules\zone.js\dist\zone.js:138:43)
+    at Object.testBody.length.done (C:\MEDINA\web-consultor\node_modules\jest-zone-patch\index.js:51:29)
+    at resolve (c:\MEDINA\web-consultor\node_modules\jest-jasmine2\build\queue_runner.js:56:12)
+    at new Promise (<anonymous>)
+    at mapper (c:\MEDINA\web-consultor\node_modules\jest-jasmine2\build\queue_runner.js:43:19)
+    at promise.then (c:\MEDINA\web-consultor\node_modules\jest-jasmine2\build\queue_runner.js:87:41)]]></failure>
+    </testCase>
   </file>
 </testExecutions>

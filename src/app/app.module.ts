@@ -6,19 +6,34 @@ import { AppComponent } from './app.component';
 // Animations
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // Material Module
-import { MaterialModule } from './material.config';
+import { MaterialModule } from './material.config'; // configuracion componentes
+import { LoginComponent } from './login/login.component';
+
+import {FlexLayoutModule, BREAKPOINT} from '@angular/flex-layout';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+
+import { HttpClientModule } from '@angular/common/http';
+import { LoginService } from './login/login.service';
+
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
+    ReactiveFormsModule,
   //  AppRoutingModule,
+  FormsModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    FlexLayoutModule.withConfig({useColumnBasisZero: false}),
+    HttpClientModule 
   ],
-  providers: [],
+  providers: [LoginService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
