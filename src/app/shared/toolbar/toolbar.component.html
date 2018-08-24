@@ -8,15 +8,15 @@
         </a>
       </div>
     </div>
-    <div color="accent" fxLayout="column" fxLayoutAlign="center center"
-      fxLayoutGap="1rem">
+    <div color="accent" fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="1rem">
       <div>
         <a>
           <span class="lead">Logo</span>
         </a>
       </div>
     </div>
-<!-- Vertical menu -->
+    <!-- Vertical menu -->
+    <app-vertical-menu></app-vertical-menu>
   </mat-sidenav>
 
   <mat-sidenav-content>
@@ -37,11 +37,12 @@
           <mat-icon>settings</mat-icon>
           <span>Setting</span>
         </button>
-        <button mat-menu-item>
+        <a mat-menu-item [routerLink]="['/login']">
           <mat-icon>exit_to_app</mat-icon>
           <span>Logout</span>
-        </button>
+        </a>
       </mat-menu>
     </mat-toolbar>
   </mat-sidenav-content>
+  <!-- router-outet -->
 </mat-sidenav-container>

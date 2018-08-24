@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import {
   MatButtonModule, MatCheckboxModule,
   MatIconModule, MatMenuModule, MatSidenavModule,
-  MatExpansionModule, MatListModule
+  MatExpansionModule, MatListModule, MatCardModule, MatFormFieldModule, MatInputModule
 } from '@angular/material';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { FlexLayoutModule } from '@angular/flex-layout'
@@ -19,6 +19,9 @@ import { FlexLayoutModule } from '@angular/flex-layout'
     FlexLayoutModule,
     MatExpansionModule,
     MatListModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   exports: [
     MatButtonModule,
@@ -30,7 +33,11 @@ import { FlexLayoutModule } from '@angular/flex-layout'
     FlexLayoutModule,
     MatExpansionModule,
     MatListModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
+
 
 })
 export class MaterialModule { }

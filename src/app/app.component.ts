@@ -8,10 +8,7 @@ import { map } from 'rxjs/operators';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-
-  
-    
-  constructor(private breakpointObserver: BreakpointObserver) {}
+export class AppComponent { 
+  constructor() {}
 }
 
